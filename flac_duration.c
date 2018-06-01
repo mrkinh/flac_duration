@@ -72,6 +72,9 @@ int main()
     fprintf(stdout, "================ Duration = %f \n", duration);
     fprintf(stdout, "=================================================================== \n");
 
+    if(pFile)
+        fclose(pFile);
+
     return 0;
 }
 
