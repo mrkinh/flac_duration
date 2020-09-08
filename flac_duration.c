@@ -5,6 +5,8 @@
 
 // Document https://xiph.org/flac/format.html
 
+// Test only
+
 int main()
 {
     FILE *pFile;
